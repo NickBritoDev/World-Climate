@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body{
+    background: #00416A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hide{
+    display: none;
+}
+
+.container{
+    background: #00416A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8ba6c0, #3385b8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: rgb(83, 81, 81) 0px 3px 8px;
+    padding: 2rem;
+    color: #E4E5E6;
+    border-radius: 1rem;
+}
+
+.form h3{
+    margin-bottom: 1rem;
+}
+
+.input-container{
+    display: flex;
+}
+
+.form input{
+    padding: 0.8rem;
+    border: none;
+    flex: 1;
+    border-radius: 6px;
+}
+
+.form button{
+    padding: 0.8rem;
+    min-width: 50px;
+    margin-left: 8px;
+    background-color: #8ba6c0;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.form button:hover{
+    background-color: #3385b8;
+    transition: ease 0.1s;
+}
+
+#weather-data{
+    border-top: 1px solid #E4E5E6 ;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    text-align: center;
+    font-family: 'Turret Road', cursive;
+}
+
+#weather-data h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.6rem;
+}
+
+#weather-data h2 i{
+    font-size: 1rem;
+    margin-inline: 5px;
+}
+
+#weather-icon{
+    width: 5.2rem;
+}
+
+
+#country{
+    width: 35px;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+
+#description-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45px;
+    height: 100%;
+}
+
+#container{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.details-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
